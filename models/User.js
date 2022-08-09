@@ -10,7 +10,7 @@ const UserSchema = new Schema({
   },
   email: {
     type: String,
-    unique: 'Email already exists',
+    unique: 'Sorry Email already exists',
     trim: true
   },
   password: {
