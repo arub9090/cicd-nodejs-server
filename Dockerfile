@@ -1,4 +1,4 @@
-FROM node:12-alpine
+FROM node:12
 
 WORKDIR /app
 
@@ -9,3 +9,5 @@ RUN npm install
 EXPOSE 3001
 
 ENTRYPOINT npm start
+
+
